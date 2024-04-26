@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #9B59B6;
+    background: #59b659;
 }
 
 .wrapper{
@@ -86,11 +86,20 @@ header .icons span:hover{
 }
 
 .days li.inactive{
-    color: #aaa;
+    color: #d0c9c9;
 }
 .days li.active{
     color: #fff;
 }
 .days li.active::before{
-    background: #9B59B6;
+    background: #59b659;
+}
+
+#dateYear{
+    width: 60px;
+    height: 40px;
+    font-size: large;
+    border: transparent;
+    outline: none;
+    margin-left: 10px;
 }
